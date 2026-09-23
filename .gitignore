@@ -1,0 +1,10 @@
+# Local .terraform directories
+.terraform/
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Exclude all .tfvars files to avoid checking in sensitive data to public repo
+*.tfvars
+*.tfvars.json

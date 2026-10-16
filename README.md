@@ -6,7 +6,7 @@ A lab to learn how to debug an AKS cluster in Azure
 ### Phase 1 address plan
 
 
-| | Range | Hold |
+| Component | Range | Hold |
 |---|---|---|
 | VNet | 10.1.0.0/16 | 65,536 addresses |
 | Node subnet |	10.1.0.0/24 | 251 usable in Azure |

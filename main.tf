@@ -9,7 +9,7 @@ resource "azurerm_virtual_network" "vnet_tf" {
   resource_group_name = azurerm_resource_group.resource_group_tf.name
   address_space       = ["10.1.0.0/16"]
   tags = {
-    owner = "ben"
+    environment = "lab"
   }
 }
 

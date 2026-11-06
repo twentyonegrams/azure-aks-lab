@@ -8,6 +8,9 @@ resource "azurerm_virtual_network" "vnet_tf" {
   location            = azurerm_resource_group.resource_group_tf.location
   resource_group_name = azurerm_resource_group.resource_group_tf.name
   address_space       = ["10.1.0.0/16"]
+  tags = {
+    owner = "ben"
+  }
 }
 
 resource "azurerm_subnet" "subnet_tf" {
